@@ -1,0 +1,61 @@
+/*基本默认样式*/
+body,ul,li,p,h4{margin: 0;padding: 0}
+ul li{list-style: none;}
+a{color: #333;text-decoration: none;}
+select{ width: 180px; border: 1px #ccc solid; height: 32px;border-radius: 4px; background: #FFF;}
+input{ width: 170px; border: 1px #ccc solid; height: 30px;border-radius: 4px; background: #FFF;text-indent: 10px;}
+.maxInput{width: 400px;outline: none;}
+.module{min-width:1300px; }
+.iconfontss{margin-left: -23px;font-size: 23px;vertical-align: middle;color: #666;}
+.confirms{text-align: center;}
+.sogin{margin-left: 30px;}
+.sogin button{margin-left: 6px;}
+.butDisabled{background:#b0b0b1 !important;}
+.boxDisabled{background:#f0f0f0 !important;}
+button{color: #FFF;background: #3C4B62;padding: 8px 30px;border: none;border-radius: 4px;outline: none;}
+/*checkbox*/
+input[type=checkbox]{top: -2px;;-webkit-appearance: none;appearance: none;-moz-appearance:none;width: 16px;height: 16px;cursor: pointer;vertical-align: middle;background: #fff;border: 1px solid #ccc;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;position: relative;}
+input[type=checkbox]:checked:after{content:'';display: block;width: 16px;height: 16px;background: url(../image/fuxuan_2.png) no-repeat;background-size:100%;margin-left: -1px;margin-top: -1px; }
+input[type=checkbox]:focus {outline: none;border-color: #E74444;}
+/*radio*/
+input[type=radio]{-webkit-appearance:none;appearance:none;width:12px;height:12px;margin:0;margin-right:.2em;margin-bottom:2px;cursor:pointer;vertical-align:middle;background:#fff;border:1px solid #ccc;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:relative;outline: none;}
+input[type=radio]:active{border-color:#ccc;background:#ebebeb;}
+input[type=radio]{-webkit-border-radius:1em;-moz-border-radius:1em;border-radius:1em;width:20px;height:20px}
+input[type=radio]:checked{background:#fff;border: 2px solid #E74444 !important;}
+input[type=radio]:checked::after{content:''; display:block;position:relative;top:3px;left:3px;width:10px;height:10px;background:#E74444;-webkit-border-radius:1em;-moz-border-radius:1em;border-radius:1em}
+
+dd{float: left;margin-left: 1%;font-size: 15px;height: 50px;line-height: 50px;}
+dl:after{content: '';display:block;clear: both;}
+/*tab切换*/
+.wrap{}
+.clearfix{*zoom: 1;}
+.clearfix:after{content: ""; clear: both; display: block; height: 0; font-size: 0; visibility: hidden;}
+.blist{border:1px solid #dfdcdc; min-width:100px; height: 50px;border-bottom: 0;border-right: none;color: #333;} 
+.blist>li:first-child{border-left: none;}
+.blist>li:last-child{border-right: 1px #dfdcdc solid;}
+.blist>li{list-style: none; padding: 0px 40px; height: 50px; border-left:1px solid #dfdcdc; font-size: 16px;  line-height: 50px; text-align: center; float: left; /*鼠标样式改变为一个手*/ cursor: pointer; /*字体免选中*/ -webkit-user-select: none;}
+.blsit-list{width: 100%;} 
+.blsit-list>li{list-style: none; width: 100%; border:1px solid #dfdcdc; min-height: 200px;padding-top: 2px;}
+.wrap .blist>li.activer{ color: red; border-top: 2px solid red; position: relative; top:-1px; height: 49px;border-bottom:1px #FFF solid;}
+.blsit-list>li:first-child{display: block;} 
+.blsit-list>li{display: none;}
+
+/*table表格*/
+table{border-collapse: collapse; margin: 0 auto; text-align: center;font-size:13px;width: 100%;} 
+table span{cursor:pointer;}
+table .span{padding-right:7px;color:#999;}
+table td, table th{border: 1px solid #cad9ea; color: #666; height: 40px;}
+table thead th{background-color: #F4F7FC; } 
+table tr:nth-child(odd){background: #fff;} 
+table tr:nth-child(even){background: #F4F7FC;} 
+table a{font-size: 12px;margin-right:8px;color:#E74444;text-decoration: underline;}
+table .notStart{color: #FFF;background:#E74444;padding: 3px 17px;border-radius: 15px;}
+.bommit{padding-bottom: 100px;}
+
+/*标题导航*/
+.tops{height: 93px;	}
+.promptNav a,.promptNav span{font-size: 14px;}
+.promptNav span{color:#666;}
+.promptNav a:hover{text-decoration: underline;color: red;}
+.promptNav{text-indent: 2em;height:50px;line-height: 50px;border-bottom: 1px #dfdcdc solid;background: #FFF; }
+.backgrounds{background: #f2f2f2;height: 15px;}

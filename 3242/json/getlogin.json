@@ -1,0 +1,10 @@
+{
+    "state": 0,
+    "message":"ok",
+    "data": {
+      "uid": "1",
+      "user_account": "12154545",
+      "user_name": "小明",
+      "groupid": 2 
+  }
+}

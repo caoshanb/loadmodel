@@ -1,0 +1,16 @@
+{
+    "tid":2,
+    "project_type": 1,
+    "sys_type":[1,2,3],
+    "is_plan":1,
+     "approve_no":"20180552652622552",
+     "task_name":"厂家感觉浪费和地方的vcv",
+     "task_type":1,
+     "priority":2,
+    "time_approve":"2018-5-20",
+    "applicant":"杜甫",
+    "consume_days":"3",
+    "task_status":1,
+    "remark":"电饭锅电饭锅DGVI",
+    "developer":[{"id":1,"name":"张三"},{"id":2,"name":"豆腐干"},{"id":3,"name":"流星"}]
+ }

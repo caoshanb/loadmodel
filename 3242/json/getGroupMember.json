@@ -1,0 +1,26 @@
+{ "success":1,
+  "data": [{
+    "uid": "1",
+    "user_account": 123,
+    "user_name": "王五",
+    "position": "测试工程师",
+    "create_time": "2018-5-22",
+    "last_login_time": "2018-5-22"
+  },
+  {
+    "uid": "2",
+    "user_account": 322,
+    "user_name": "赵四",
+    "position": "测试工程师",
+    "create_time": "2018-5-22",
+    "last_login_time": "2018-5-22"
+  },
+  {
+    "uid": "3",
+    "user_account": 1123,
+    "user_name": "李嗷嗷",
+    "position": "测试工程师",
+    "create_time": "2018-5-22",
+    "last_login_time": "2018-5-22"
+  }]
+}

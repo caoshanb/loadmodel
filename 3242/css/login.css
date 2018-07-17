@@ -1,0 +1,66 @@
+
+
+body,p{margin:0;padding:0;}
+body{width: 100%;min-width: 1024px;height:auto;background:url(../image/login.png) no-repeat;background-size:cover;background-attachment: fixed; }
+.bodys::after{content: "";display: block;clear:both;}
+.main{min-height: 600px;color: #333;width: 90%;height: 90%;position: fixed;top: 50%;left:50%;box-shadow: 0 0 25px #333;position:absolute;top:0;right:0;bottom:0;left:0;margin:auto;}
+.left{float: left;width: 65%;height:100%;letter-spacing:2px;opacity: 0.9;position: relative;}
+.left p{color: #FFF;opacity: 1;}
+.right{float: right;width: 35%;height:100%;background: #FFF;position: relative;}
+.Eg{font-size: 55px;font-weight: 700;text-align: right;}
+.nz{font-size: 33px;font-weight: 500;text-align: right;}
+/*input{color: #FF0000 !important;}*/
+.title{width: 90%;margin:0 auto;position: absolute;bottom: 17%;left: 0;}
+.rightContent{width: 75%;height:60%;margin:auto;position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
+.rightTitle{text-align: center;font-size: 22px;letter-spacing:4px;}
+.rightTitle>span{border-bottom: 3px #E74444 solid;padding-bottom: 2px;}
+.names input,.pwd input{border: 0;border-bottom: 1px #999 solid;padding: 10px 0;background: #fff;outline: 0;text-indent:60px;font-size: 17px;width: 100%;border-radius:0;}
+.login input[type=text]:focus{border-bottom: 1px solid #FF0000;color: #FF0000 !important;border-radius:0;text-fill-color:#FF0000;-webkit-text-fill-color:#FF0000 }
+.login input[type=password]:focus{border-bottom: 1px solid #FF0000;color: #FF0000 !important; border-radius:0;text-fill-color:#FF0000;-webkit-text-fill-color:#FF0000}
+.error,.names,.pwd{position: relative;margin-top: 8%;}
+.names i,.pwd i{position: absolute;top:7px;left:0;font-size: 28px;text-indent: 15px;color: #999;}
+/*.pwd i{text-indent: 17px;}*/.error .ps{color: #FF0000;background: #FFE5E5;border: 1px #FF0000 solid;padding: 7px 0;width: 100%;text-indent: 1em}
+#butLling{outline: none;height: 65px;line-height: 65px;width: 100%;font-size: 24px;color: #fff;background:#3C4B62;border: 0;position: relative;z-index: 12;}
+.butr{text-align: center;margin-top: 18%;}
+.i-active{color: red !important;}
+.box{width: 93%;opacity: 0.8;text-align: center;display: inline-block;box-shadow:0px 13px 35px #3C4B62;height: 23px;position: relative;top:-25px;z-index: 10;}
+.error i{font-size: 20px;}
+.login .error{height: 40px;}
+.login input:-webkit-autofill{-webkit-box-shadow: 0 0 0px 1000px white inset;}
+@media(max-width: 1600px) {
+	.Eg{font-size: 53px;}
+	.nz{font-size: 33px;}
+}
+@media(max-width: 1500px) {
+	.Eg{font-size: 51px;}
+	.nz{font-size: 33px;}
+#butLling{height: 60px;font-size: 24px;line-height: 60px;}
+}
+@media(max-width: 1400px) {
+	.Eg{font-size: 47px;}
+	.nz{font-size: 32px;}
+	#butLling{height: 58px;font-size: 22px;line-height: 58px;}
+}
+@media(max-width: 1300px) {
+	.Eg{font-size: 43px;}
+	.nz{font-size: 30px;}
+	#butLling{height: 57px;font-size: 21px;line-height: 57px;}
+}
+@media(max-width: 1200px) {
+	.Eg{font-size: 40px;}
+	.nz{font-size: 28px;}
+	#butLling{height: 55px;font-size: 20px;line-height: 55px;}
+	body{background-size:none;}
+}
+@media(max-width: 1120px) {
+	.Eg{font-size: 37px;}
+	.nz{font-size: 26px;}
+	#butLling{height: 53px;font-size: 18px;line-height: 53px;}
+	body{background-size:none;}
+}
+@media(max-width: 1024px) {
+	.Eg{font-size: 34px;}
+	.nz{font-size: 24px;}
+	body{background-size:none;}
+	#butLling{height: 51px;font-size: 18px;line-height: 51px;}
+}
