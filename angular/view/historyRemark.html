@@ -1,0 +1,51 @@
+<div class="modal" style="display:block;" ng-show="historyRemark" >
+		<div class="modal_body">
+			<div class="modal_content">
+				<div class="modal_contents" style="width: 800px;min-height:300px;">
+					<div class="modal_title">
+						<div class="leftTit">
+							<span >历史备注</span>
+						</div>
+						<div class="close"   ng-click="reClose($event)"><i class="icon iconfont icon-shachu-xue"></i></div>
+					</div>
+					<div class="">
+						<form  class="timeSocl">
+							<div style="margin:18px 0" ng-show="releaseRemarkTask==1">
+								<button  ng-click="addRk()">添加备注</button>
+							</div>
+							<div class="mout" >
+								<table>
+									<thead>
+										<tr>
+											<th>编号</th>
+											<th width="40%">备注内容</th>
+											<th>备注人</th>
+											<th>备注时间</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr ng-repeat="hr in HistoryRemarkList">
+											<td>{{hr.num}}</td>
+											<td><span class="remarkLength">{{hr.remark}}</span></td>
+											<td>{{hr.username}}</td>
+											<td>{{hr.time_change}}</td>
+										</tr>
+										<tr ng-show="HistoryRemarkList=='' || HistoryRemarkList== undefined">
+											<td colspan="4">暂无备注</td>
+										</tr>
+									</tbody>
+								</table>
+								<pagination total-items="rkTotal || 1" ng-change="changeRkList(rkPage.page_index)" ng-model="rkPage.page_index" max-size="5"
+	                            items-per-page="rkPage.page_rows" class="pagination-sm pull-right"
+	                            boundary-links="true"></pagination>
+	                            <p style="clear:both;padding-bottom:25px"></p>
+							</div>
+							<!-- <div class="but">
+								<button ng-click="subFixRemark()">确定</button>
+							</div> -->
+						</form>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>

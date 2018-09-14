@@ -1,0 +1,43 @@
+<div class="modal" ng-show="finishTime"  >
+        <div class="modal_body">
+            <div class="modal_content">
+                <div class="modal_contents">
+                    <div class="modal_title">
+                        <div class="leftTit" >实际完成时间</div>
+                        <div class="close"   ng-click="code=false;" ><i ng-click="reClose()"  class="icon iconfont icon-shachu-xue"></i></div>
+                    </div>
+                    <div class="modal_main">
+                        <form id="timeSocl" class="timeSocl">
+                            <div class="mout" ng-if="setTextaera">
+                                <label>备注：</label>
+                                <textarea name="remark" id="" cols="50" rows="10" placeholder="请输入"></textarea>
+                            </div>
+                            <div ng-if="uiDev!=1" >
+                                <div ng-show="test!=1 ">
+                                    <span >是否需要测试：</span>
+                                    <label>
+                                   		<input type="radio"  name="is_test" value="1" ng-click="code=false" ng-init="code=false"  ><span>是</span>
+                                   </label>
+                                    <label>
+                                    	<input type="radio"  name="is_test" value="0" ng-click="code=true" ><span>否</span>
+                                    </label>
+                                </div>
+                                <div ng-show="code || test==1 " >
+                                    <span>是否需要发布：</span>
+                                    <label>
+                                        <input type="radio"  name="is_release" value="1" ><span>是</span>
+                                    </label>
+                                    <label>
+                                    	<input type="radio" name="is_release" value="0" ><span>否</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="but">
+                                <button ng-click="submits()">确定</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+       </div>
+   </div>

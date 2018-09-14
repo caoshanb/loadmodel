@@ -1,0 +1,16 @@
+{
+  "success":1,
+  "data":[{
+    "gid":1,
+    "group_name":"PHP"
+    },{
+    "gid":2,
+    "group_name":"Py"
+    },{
+    "gid":3,
+    "group_name":"IOS"
+    },{
+    "gid":4,
+    "group_name":"QIANDUAN"
+    }]
+}

@@ -1,0 +1,154 @@
+
+
+/*header.php*/
+.Navigation{min-height: 77px;background: #3C4B62;color: #FFF;line-height: 77px;min-width: 1300px;}
+.Navigation a{color: #FFF;text-decoration: none;}
+/*.Navigation .modifyPwd{text-align: center;}*/
+.Navigation  .modifyPassword p{line-height: 30px !important;height: 70px;}
+.Navigation .paddings{padding-left: 105px;}
+.Navigation  .modifyPassword label{line-height: 35px;}
+.Navigation .modifyPwd a{color:#E74444;padding-left: 38px;text-decoration: underline}
+.Navigation>.logoText,.Navigation>ul>li{float: left;}
+.Navigation .logoText{font-size:24px;text-indent: 1.5em;width: 20%; }
+.Navigation .nav{width: 65%;float: left;}
+/*.Navigation>.nav>li{margin: 0 4.5%;text-align: center;}*/
+.Navigation .nav a{color: #ACB0B8;padding:0px 5px ;display: inline-block;line-height: 72px;}
+.Navigation .userNav{float: left; width: 15%;}
+.Navigation .nav-active>a{border-bottom: 4px #E74444 solid;color:#FFF !important;display: inline-block;line-height: 73px;}
+.Navigation li>a:hover{text-decoration: underline}
+.Navigation .userNav .fonts{width: 8%;height: 35px;border-left: 1px #FFF solid;margin-top: 22px;margin-left: 5%;}
+.Navigation .icon-icon{font-size:28px;padding:0 5px;vertical-align: middle;display: inline-block;margin-top: -5px;}
+.Navigation .icon-tuichu2{font-size:23px;margin-left:35px; vertical-align: middle;}
+.Navigation .userInfo{position: relative;}
+.Navigation .userInfo ul{position: absolute;top: 80px;left: -5px;z-index: 3000;color:#000;width: 160px;padding: 10px 0; font-size: 14px;text-indent: 10px;background: #FFF;border-radius: 4px;box-shadow: 0px  0px 20px #999; }
+.Navigation .userInfo ul li{line-height: 28px;color: #555}
+.Navigation .liBor{border-top: 1px #ccc solid;line-height: 10px;line-height: 6px !important;margin-top: 13px;}
+.Navigation  .cancel{text-decoration: underline;color:#E74444;padding-left: 7px;}
+.Navigation .hides{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: #000;opacity: 0.1;z-index: 2888}
+.Navigation  .agents{z-index: 2900;background: #FFF;border-radius: 6px;color: #333;width: 570px;height:270px;position: fixed;top: 50%;left:50%;border: 1px #ccc solid;
+  position:absolute; top:0; right:0; bottom:0; left:0; margin:auto;box-shadow: 0 0 18px #333;}
+.Navigation  .agents>div p{line-height: 70px;}
+.Navigation  .AlTitle{float: left;line-height: 35px;}
+.Navigation  .closer{float: right;line-height: 35px;font-weight: 700}
+.Navigation .titles{background: #F2F2F2;padding: 5px 15px;}
+.Navigation .agents label{width: 100px;text-align: right;display: inline-block;}
+.Navigation	.u-tri{display: inline-block;position: absolute;top: -7px;left: 20px;z-index: 11111;border-top: 6px solid transparent;border-bottom: 7px solid transparent;border-left: 5px solid transparent;
+		    border-right: 12px solid #fff;transform: rotate(20deg);-ms-transform: rotate(20deg);-webkit-transform: rotate(-157deg);}
+
+/*index.php*/
+.index{background: #F2F2F2;margin-bottom: 50px;min-width: 1300px;}
+.index .content{background: #FFF;margin-top: 15px;}
+.index #timeSocl label{text-align: left;margin-right: 80px}
+.index #timeSocl .mout label{text-align: right;min-width: 100px;margin-right: 0;}
+
+/*planDetails.php*/
+.planContent{padding: 10px 0; }
+.but{padding: 30px;}
+.but::after{content: "";display: inline-block;clear: both;}
+.but .left{float: left;margin-right: 18px;}
+.but .right{float: right;}
+.planDetails .but .right a{color: #FFF}
+.planDetails .checkAll button{border-radius: 15px;padding: 3px 18px;margin-left: 20px;font-size: 13px;}
+.planDetails .checkAll{margin-top: 8px;outline: none;}
+.planDetails .selectTime{color: #E74444;}
+
+/*myMissionPlan.php*/
+/*.myMissionPlan .but{padding: 30px;}*/
+.myMissionPlan .selectTime{color: #E74444;}
+
+/*reviseHistory.php*/
+.reviseHistory .title{font-size: 25px;color:#3C4B62;padding-left: 25px;padding-bottom: 15px;letter-spacing: 2px;}
+
+/*reviseHistoryDetails.php*/
+.reviseHistoryDetails .title{font-size: 25px;color:#3C4B62;padding-left: 25px;padding-bottom: 15px;letter-spacing: 2px;}
+.reviseHistoryDetails .modifiesr{color: #e56424}
+
+/*taskDetails.php*/
+.taskDetails .but{font-size:18px;letter-spacing: 2px;color: #3C4B62;font-weight: 500;padding: 20px 30px;}
+.taskDetails .ctStyle{display: inline-block;max-width: 65%;white-space:nowrap;}
+.taskDetails .ctLabel{vertical-align: top;}
+.taskDetails{color: #666;}
+.taskDetails .planContent,.amendHistory{padding-bottom:30px; }
+.taskDetails .taskInfo{padding-bottom:20px;width: 100%; }
+.taskDetails .taskInfo ul{ display: table;width: 100%;}
+.taskDetails .taskInfo ul li{font-size: 14px;width: 19.9%;border-right:1px #ccc solid;display: table-cell;word-break: break-all; vertical-align: top;}
+.taskDetails .taskInfo ul li p{padding: 5px 0;word-break: break-all;}
+.taskDetails .taskInfo ul li p label{width: 30%;text-align: right;display: inline-block;}
+.taskDetails .taskInfo ul li .ctStyle button{min-width:20%;background: #E74444;margin: 2px 5px;padding: 3px 5px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;float: left;}
+.taskDetails .taskInfo ul li .ctL::after{content: "";display: block;clear: both;}
+.taskDetails .taskInfo ul li:last-child p label{float: left;}
+.taskDetails .taskModel{padding-bottom:30px;}
+.taskDetails .taskModel::after,.taskInfo::after,.planContent::after{content: "";display: block;clear: both;}
+.taskDetails .edit,.more{text-align: center;}
+.taskDetails .more{padding: 22px 0;}
+.s{border-left: 1px #ccc  solid;width: 1px;height: 100%;position: absolute;right: 0;top: 0;}
+/*.taskDetails li{position:absolute;right:0;top:0}*/
+.taskDetails .newTask div{padding: 8px 0 !important;}
+.taskDetails .task_title{margin-bottom:0 !important;}
+.taskDetails .radio_right{display: inline-block;width: 710px;}
+.taskDetails .radio_right label{text-align: left !important;min-width:80px;padding-right: 5px; }
+.taskDetails .add a{font-size: 14px;color: red;text-decoration: underline;}
+.taskDetails .addParticipant label{min-width:100px !important;padding-left: 30px;}
+.errorInfo{font-size: 14px;color:#E74444;padding-left: 10px; }
+.taskDetails .exceedingLength{ display: inline-block;width: 70%;vertical-align: text-top;}
+.taskDetails .selectTime{color: #E74444;}
+.planDetails .newMain div {padding: 15px 0px;padding-right: 5px;}
+.importModule{position: relative;}
+#pic{height: 34px;width: 100%;padding: 0;position: absolute;top: 0;left: 0;opacity: 0;filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity: 0;}
+
+/*generalTask.php*/
+.generalTask .urgentState{color: #FF732E}
+.generalTask .unread{width: 10px; height: 10px;display: inline-block;border-radius: 50%;background: #E74444;}
+
+/*groupTask.php*/
+.groupTask .queryGroupList{margin: 0;border:none;margin-right: 3px;min-width: 150px;}
+.groupTask .queryGroupList>span{text-indent: 0;text-align: center;color: #3C4B62;}
+.groupTask .memberList{word-break: break-all;border: 1px #ccc solid;overflow-y: scroll;max-height: 320px;}
+.groupTask .memberList::-webkit-scrollbar{width: 6px; height: 6px; background-color: #f5f5f5;}
+.groupTask .memberList::-webkit-scrollbar-track{-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1); border-radius: 10px; background-color: #f5f5f5;}
+.groupTask .memberList::-webkit-scrollbar-thumb{/*width: 10px;*/ height: 20px; border-radius: 10px; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1); background-color: #d8d6d6; /*#3C4B62*/}
+
+/*project.php*/
+ .newBut{padding: 15px 20px;}
+.project .systemText{display: inline-block;margin: 0;padding: 0!important;}
+.project .systemText p{margin-top:10px;}
+.project .removes{padding-left: 8px;}
+.project .sysWfith{max-width: 330px;margin: auto;}
+
+/*userAdmin.php*/
+.userAdmin .optionTitle{float: left;width: 20%;padding: 10px 0;}
+.userAdmin .optionTitle label{min-width: 100px !important;}
+.userAdmin .options{float: left;width: 75%;}
+.userAdmin .jurisdictions{max-width: 500px;}
+.userAdmin .jurisdictions .options label{text-align: left!important;}
+.userAdmin .jurisdictions::after{content:'';display: block;clear: both;}
+.userAdmin .jurisdictions li{float: left;width: 50%;padding-bottom: 20px;}
+.userAdmin .jurisdictions .options p label{font-size: 13px;color: #555;padding-right: 10px;}
+.userAdmin .jurisdictions .options p {padding-top: 5px;}
+.userAdmin .nth-child,.nth-child p label{color: #999 !important;}
+#jurisdictions label{min-width: 20px;}
+.userAdmin .newPwdr{min-width: 350px;}
+.userAdmin .newPwdr .mout>div{padding: 8px 0;}
+.userAdmin .groupName{color: #888;padding-left: 5px;}
+.userAdmin .editUserInfo{color:#666;padding-bottom:10px;display: inline-block;}
+.userAdmin .attributeGroup{max-width: 430px;display: inline-block;padding-bottom: 15px !important;}
+.userAdmin .modal .attributeGroup label{text-align:left; }
+.userAdmin .groupDev{color: #555;font-size: 14px;}
+@media(max-width: 1400px) {
+	.Navigation>.nav>li{margin: 0 4.7% !important;text-align: center;}
+  dl{margin:7px  0px;}
+  dd{margin:0  6px;}
+}
+@media(min-width: 1401px) {
+  dl{margin:7px  22px;}
+  dd{margin:0  10px;}
+	.Navigation>.nav>li{margin: 0 5.5% !important;text-align: center;}
+  body{    overflow-x: hidden;}
+}
+@media(max-width: 1300px) {
+  body{    overflow-x: auto;}
+  .navRight{width: 16.9%;}
+}
+@media(min-width: 1301px) {
+  body{    overflow-x: hidden;}
+}

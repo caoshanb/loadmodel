@@ -1,0 +1,26 @@
+<div class="modal" style="display:block;z-index:111;" ng-show="fixRemarkShow" >
+		<div class="modal_body">
+			<div class="modal_content">
+				<div class="modal_contents">
+					<div class="modal_title">
+						<div class="leftTit">
+							<span >添加备注</span>
+						</div>
+						<div class="close"   ng-click="reClose($event)"><i class="icon iconfont icon-shachu-xue"></i></div>
+					</div>
+					<div class="modal_main">
+						<form  class="timeSocl">
+							<div class="mout" >
+								<label>备注：</label>
+
+								<textarea  name="remark" id="" cols="50" rows="10" placeholder="请输入" ng-model="editRemark" ></textarea>
+							</div>
+							<div class="but">
+								<button ng-click="subFixRemark()">确定</button>
+							</div>
+						</form>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
